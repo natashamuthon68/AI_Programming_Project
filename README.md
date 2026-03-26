@@ -5,13 +5,16 @@
 - **Reg Number:** 252086DAI
 
 ## Project Title
-AIU Course Assistant Chatbot
+AKAZA - Adaptive Knowledge and AI Zone Assistant
 
 ## What This Project Is About
-This is a simple chatbot i built using Python. It answers common questions
-about Artificial Intelligence and Africa International University using 
-if-else logic and keyword matching. It can handle 5 different user intents 
-and gives polite, informative responses each time.
+This is a simple chatbot i built using Python named AKAZA 
+(Adaptive Knowledge and AI Zone Assistant). It answers common 
+questions about Artificial Intelligence and Africa International 
+University using if-else logic and keyword matching. It can handle 
+5 different user intents and gives polite, informative responses 
+each time.
+
 
 ## Libraries I Used
 - `re` — for detecting keywords in user input
