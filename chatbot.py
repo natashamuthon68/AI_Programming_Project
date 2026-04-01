@@ -42,13 +42,13 @@ class AKAZA:
         for info in self.aiu_info:
             if info in user_input:
                 return f"AIU Info 🏫: {self.aiu_info[info]}"        
-        # Intent 4: Exam Stress / Humor
-        if "stressed" in user_input or "panic" in user_input or "anxious" in user_input:
+        # Intent 4: Career Advice
+        if "career" in user_input or "jobs" in user_input or "work" in user_input or "future" in user_input:
             return random.choice([
-                "Take a deep breath. 1... 0... 1... 0... (Wait, that's binary 😭). You've got this!",
-                "Close your eyes. Imagine you already passed. Now open them and go study 😄",
-                "AKAZA does not experience stress. But if he did, he'd probably just reboot 🤖"
-            ])        
+                "AI opens doors to careers like Machine Learning Engineer, Data Scientist, AI Researcher and Robotics Engineer 🚀",
+                "With AI skills you can work in healthcare, finance, cybersecurity, gaming and so much more! The future is yours 💪",
+                "Top AI careers right now include Data Analyst, NLP Engineer, Computer Vision Specialist and AI Product Manager 🌟"
+            ])
         # Intent 5: Identity (Who is AKAZA)
         if "who are you" in user_input or "what are you" in user_input or "creator" in user_input or "who made you" in user_input:
             return random.choice([
