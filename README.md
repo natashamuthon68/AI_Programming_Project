@@ -26,6 +26,7 @@ each time.
 - `string` — to clean up user input before processing it
 
 ## How to Run It
+```bash
 1. Make sure you have Python 3 installed
 2. Clone the repo:
    git clone https://github.com/natashamuthon68/AI_Programming_Project
