@@ -36,6 +36,7 @@ each time.
    python chatbot.py
 5. Type any question about AI or AIU and the bot will respond
 6. Type 'bye' to exit the chatbot
+```
 
 ## Project 2: Cybersecurity Attacks Analyzer
 
