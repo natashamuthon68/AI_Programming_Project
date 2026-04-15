@@ -38,11 +38,12 @@ def prepare_data(df):
     # Encode target labels from text to numbers (e.g. DDoS=0, Intrusion=1, Malware=2)
     le = LabelEncoder()
     y_encoded = le.fit_transform(y)
-    # LabelEncoder converts DDoS=0, Intrusion=1, Malware=2
+    # le.fit_transform learns all unique labels and converts them to numbers at once
     # We do this because ML models only work with numbers, not text
 
     print(f"\nFeatures used: {features}")
     print(f"Target classes: {list(le.classes_)}")
+    # le.classes converts the number back to the text label
     return X, y_encoded, le
 
 # Step 3: Split data into training and testing sets
