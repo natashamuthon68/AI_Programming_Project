@@ -2,6 +2,7 @@ import pandas as pd
 # Used to load the dataset
 from sklearn.tree import DecisionTreeClassifier
 # The main ML model we are using — a Decision Tree
+# DecisionTreeClassifier is the ML model 
 from sklearn.model_selection import train_test_split
 # Used to split data into training and testing sets
 from sklearn.preprocessing import LabelEncoder
@@ -9,6 +10,7 @@ from sklearn.preprocessing import LabelEncoder
 # because ML models only understand numbers
 from sklearn.metrics import accuracy_score, classification_report
 # Used to measure how well the model performed
+# classification_report gives a detailed breakdown per attack type
 
 
 # Step 1: Load the dataset
