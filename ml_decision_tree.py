@@ -59,8 +59,11 @@ def split_data(X, y):
     # Think of it like: study 80% of past papers, test on the remaining 20%
 
     print(f"\nTraining samples: {len(X_train)}")
+    # len(X_train) counts how many rows are in the training set 
     print(f"Testing samples:  {len(X_test)}")
+    # len(X_test) counts how many rows are in the testing set
     return X_train, X_test, y_train, y_test
+    # returns all 4 sets so they can be used in the next steps
 
 # Step 4: Train the Decision Tree model
 def train_model(X_train, y_train):
